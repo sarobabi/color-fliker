@@ -1,0 +1,19 @@
+#overview{
+    text-align: center;
+    margin: 10px;
+    border: 10px ;
+}
+#click{
+    margin-top: 20px;
+    text-transform: capitalize;
+    border-radius: 50px;
+    padding: 5px;
+}
+input{
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+#click:hover{
+    background-color: aqua;
+}

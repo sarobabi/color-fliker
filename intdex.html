@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Colour</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="overview">
+    <h1>Colour</h1>
+    <input type="text" ><br>
+    <button id="click"> click me</button>
+</div>
+<script>
+let clickme=document.getElementById("click");
+let color=["yellow","orange","teal","aliceblue","pink","red"];
+clickme.addEventListener("click",function(){
+let random=Math.floor(Math.random()*color.length);
+document.querySelector("input").value=color[random].toLocaleUpperCase();
+document.body.style.backgroundColor=color[random];   
+})
+
+</script>
+</body>
+</html>
